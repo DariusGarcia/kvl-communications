@@ -33,7 +33,7 @@ export default function Navigation() {
 									smooth: true,
 								})
 							}>
-							KVL
+							KVL Communications
 						</li>
 					</ul>
 				</div>

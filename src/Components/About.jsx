@@ -8,6 +8,7 @@ import {
 	MdTablet,
 	MdLaptopChromebook,
 	MdBuildCircle,
+	MdLoyalty,
 } from 'react-icons/md';
 
 let scroller = Scroll.scroller;
@@ -17,7 +18,7 @@ let Element = Scroll.Element;
 export default function About() {
 	return (
 		<Element name='about'>
-			<div className='relative h-full mt-28 mb-12 text-grey'>
+			<div className='relative h-full mt-28 mb-2 md:mb-16 text-grey'>
 				{/*----------------------------------3D MODEL---------------------------------------------*/}
 				<div className='mt-24 md:mt-18 h-screen cursor-grab'>
 					<Spline scene='https://prod.spline.design/uWliGq2xJzALdGJP/scene.splinecode' />
@@ -30,6 +31,9 @@ export default function About() {
 					<article className='md:flex flex-col w-full '>
 						<div className='flex justify-center'>
 							<header className='flex flex-col justify-center text-center md:w-3/5 rounded-xl p-8 m-4 md:m-12 shadow-xl border-2 border-lightGrey'>
+								<span className='flex justify-center text-center mb-4'>
+									<MdLoyalty size={80}></MdLoyalty>
+								</span>
 								<h1 className='text-grey text-4xl font-bold'>
 									Brand Name Products
 								</h1>
@@ -55,7 +59,7 @@ export default function About() {
 						</div>
 
 						{/*----------------------------------PRODUCTS OFFERED----------------------------------*/}
-						<div className='flex flex-col mt-4 md:mt-12 md:mt-0 md:shadow-xl rounded-md p-4 w-full justify-center md:bg-grey md:flex-row gap-8  text-white'>
+						<div className='flex flex-col mt-0 md:mt-10 md:shadow-xl rounded-md px-4 py-4 md:py-24 w-full justify-center md:bg-grey md:flex-row gap-8 text-white'>
 							<div className='-m-2px hover:border-2 border-primary flex flex-col justify-start rounded-xl p-4 md:w-1/4 shadow-2xl bg-grey3  	'>
 								<div className=' flex justify-center text-center mb-4  rounded-full '>
 									<MdPhoneIphone size={70}></MdPhoneIphone>
