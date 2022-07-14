@@ -27,23 +27,35 @@ export default function About() {
 					<img src={logo} alt='logo' className=' rounded-lg md:h-96'></img>
 				</div>
 				<section className='mt-16 '>
-					<article className='md:flex '>
-						<header className='flex flex-col justify-center text-center md:w-1/2 rounded-xl p-8 m-4 md:m-12 shadow-xl border-2 border-lightGrey'>
-							<h1 className='text-grey text-4xl font-bold'>
-								Brand Name Products
-							</h1>
-							<span className='flex justify-center pt-8 md:pt-4'>
-								<p className='w-full md:w-3/5 lg:w-96'>
-									<span className='font-bold'>KVL</span>{' '}
-									<span className='text-primary font-bold'>Communications</span>{' '}
-									offers a selection of new equipment that includes everything
-									you need to keep your mobile business running smoothly.
-								</p>
-							</span>
-						</header>
+					<article className='md:flex flex-col w-full '>
+						<div className='flex justify-center'>
+							<header className='flex flex-col justify-center text-center md:w-3/5 rounded-xl p-8 m-4 md:m-12 shadow-xl border-2 border-lightGrey'>
+								<h1 className='text-grey text-4xl font-bold'>
+									Brand Name Products
+								</h1>
+								<div className='flex flex-col text-center justify-center pt-8 md:pt-4'>
+									<div className='flex justify-center'>
+										<p className='w-full md:w-3/5 lg:w-96'>
+											<span className='font-bold'>KVL</span>{' '}
+											<span className='text-primary font-bold'>
+												Communications
+											</span>{' '}
+											offers a selection of new equipment that includes
+											everything you need to keep your mobile business running
+											smoothly.
+										</p>
+									</div>
+									<div className='flex justify-center text-center mt-8'>
+										<button className='flex justify-center h-max w-max text-sm p-4 bg-primary text-white rounded-lg hover:bg-bluetext hover:shadow-lg hover:scale-110 outline-grey transition ease-in-out delay-10'>
+											Work with us
+										</button>
+									</div>
+								</div>
+							</header>
+						</div>
 
 						{/*----------------------------------PRODUCTS OFFERED----------------------------------*/}
-						<div className='flex flex-col mt-12 md:mt-0 shadow-xl rounded-md p-4 w-full justify-center  md:flex-row gap-8  text-white'>
+						<div className='flex flex-col mt-4 md:mt-12 md:mt-0 md:shadow-xl rounded-md p-4 w-full justify-center md:bg-grey md:flex-row gap-8  text-white'>
 							<div className='-m-2px hover:border-2 border-primary flex flex-col justify-start rounded-xl p-4 md:w-1/4 shadow-2xl bg-grey3  	'>
 								<div className=' flex justify-center text-center mb-4  rounded-full '>
 									<MdPhoneIphone size={70}></MdPhoneIphone>
