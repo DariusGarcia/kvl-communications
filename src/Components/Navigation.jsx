@@ -1,6 +1,6 @@
 import React from 'react';
 import * as Scroll from 'react-scroll';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { MdHome } from 'react-icons/md';
 
 let scroller = Scroll.scroller;
@@ -33,7 +33,7 @@ export default function Navigation() {
 									smooth: true,
 								})
 							}>
-							KVL Communications
+							<Link to='/'>KVL Communications</Link>
 						</li>
 					</ul>
 				</div>
@@ -50,8 +50,7 @@ export default function Navigation() {
 							// 	})
 							// }
 						>
-							About
-							{/* <Link to='/'>About </Link> */}
+							<Link to='/'>About </Link>
 						</li>
 						<li
 							className='hover:text-green hover:border-b-2 border-white ease-in-out'
@@ -64,8 +63,7 @@ export default function Navigation() {
 							// 	})
 							// }
 						>
-							Services
-							{/* <Link to='/services'>Services</Link> */}
+							<Link to='/services'>Services</Link>
 						</li>
 						{/* <li className="links">Releases</li> */}
 						<li
@@ -79,8 +77,7 @@ export default function Navigation() {
 							// 	})
 							// }
 						>
-							Payments
-							{/* <Link to='/payments'>Payments</Link> */}
+							<Link to='/payments'>Payments</Link>
 						</li>
 						<li
 							className='hover:text-green hover:border-b-2 border-white ease-in-out'
@@ -93,8 +90,7 @@ export default function Navigation() {
 							// 	})
 							// }
 						>
-							Contact
-							{/* <Link to='/contact'>Contact</Link> */}
+							<Link to='/contact'>Contact</Link>
 						</li>
 					</ul>
 				</div>

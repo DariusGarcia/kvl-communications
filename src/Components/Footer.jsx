@@ -10,7 +10,7 @@ const Footer = () => {
 						<h1 className='text-xl pb-2'>Contact Us</h1>
 						<span className='flex md:flex-row gap-1 pb-2 text-center'>
 							<MdEmail size={20}></MdEmail>
-							<p>Vanessa@kvlcommunications.com</p>
+							<p>info@kvlcommunications.com</p>
 						</span>
 						<span className='flex md:flex-row gap-1 text-start'>
 							<MdPhoneIphone size={20}></MdPhoneIphone>
