@@ -6,14 +6,14 @@ import { MdHome } from 'react-icons/md';
 export default function Navigation() {
 	return (
 		<>
-			<nav className='flex fixed items-center top-0 justify-between bg-primary h-28 w-full p-5 text-white z-50'>
-				<div className=''>
+			<nav className='flex fixed items-center top-0 justify-between rounded-b-md bg-primary h-28 w-full p-5 text-white z-50'>
+				<div className='flex justify-center text-center'>
 					<ul className='flex items-end justify-center gap-5 place-content-end cursor-pointer'>
-						<li className='hover:text-green hover:border-b-2 border-white'>
+						<li className='hover:text-green hover:border-b-2  border-white'>
 							<MdHome></MdHome>{' '}
 						</li>
 						<li
-							className='hover:text-green hover:border-b-2 border-white'
+							className='hover:text-green hover:border-b-2  border-white'
 							// onClick={() =>
 							// 	animateScroll.scrollToTop({
 							// 		duration: 400,
@@ -22,7 +22,7 @@ export default function Navigation() {
 							// 	})
 							// }
 						>
-							GMV
+							KVL
 						</li>
 					</ul>
 				</div>
