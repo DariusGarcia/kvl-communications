@@ -1,6 +1,6 @@
 import React from 'react';
 import * as Scroll from 'react-scroll';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import logo from '../images/dark.PNG';
 import Spline from '@splinetool/react-spline';
 import {
@@ -17,12 +17,12 @@ let Element = Scroll.Element;
 export default function About() {
 	return (
 		<Element name='about'>
-			<div className='relative h-screen mt-28 mb-96 text-grey'>
-				<div className='mt-24 md:mt-18 h-screen'>
+			<div className='relative h-full mt-28 mb-12 text-grey'>
+				{/*----------------------------------3D MODEL---------------------------------------------*/}
+				<div className='mt-24 md:mt-18 h-screen cursor-grab'>
 					<Spline scene='https://prod.spline.design/uWliGq2xJzALdGJP/scene.splinecode' />
-
-					{/* <Spline scene='https://prod.spline.design/uWliGq2xJzALdGJP/scene.splinecode' /> */}
 				</div>
+				{/*---------------------------------------------------------------------------------------*/}
 				<div className='flex justify-center mt-20 md:mx-16'>
 					<img src={logo} alt='logo' className=' rounded-lg md:h-96'></img>
 				</div>
@@ -118,7 +118,6 @@ export default function About() {
 							</div>
 						</div>
 					</article>
-					'
 				</section>
 			</div>
 		</Element>

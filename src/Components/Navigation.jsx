@@ -10,7 +10,7 @@ let animateScroll = Scroll.animateScroll;
 export default function Navigation() {
 	return (
 		<>
-			<nav className='backdrop-filter backdrop-blur-lg bg-opacity-70 firefox:bg-opacity-70 flex fixed items-center top-0 justify-around md:justify-between bg-grey h-28 w-full p-5 text-sm md:text-base text-white z-50'>
+			<nav className='backdrop-filter backdrop-blur-lg bg-opacity-50 firefox:bg-opacity-70 rounded-b-md flex fixed items-center top-0 justify-around md:justify-between bg-grey h-28 w-full p-5 text-sm md:text-base text-white z-50'>
 				<div className='flex justify-center text-center'>
 					<ul className='flex items-end justify-center gap-5 place-content-end cursor-pointer'>
 						<li
