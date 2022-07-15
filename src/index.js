@@ -9,6 +9,7 @@ import Payments from './Routes/Payments';
 import Contact from './Routes/Contact';
 import reportWebVitals from './reportWebVitals';
 import ScrollToTop from './Components/ScrollToTop';
+import 'floc-off';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
