@@ -2,7 +2,7 @@
   "name": "kvl",
   "version": "0.1.0",
   "private": true,
-  "homepage": "./",
+  "homepage": "https://dariusgarcia.github.io/kvl-communications",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@splinetool/react-spline": "^2.2.1",
