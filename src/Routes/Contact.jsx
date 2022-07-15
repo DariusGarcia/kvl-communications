@@ -37,7 +37,7 @@ export default function Contact() {
 							<form
 								ref={form}
 								onSubmit={sendEmail}
-								className='flex flex-col text-black  rounded-xl md:rounded-l-lg p-4 md:p-8 border-2 w-full m-2 md:m-0 border-primary shadow-xl '>
+								className='flex flex-col text-black  rounded-lg p-4 md:p-8 border-2 w-full m-2 md:m-0 border-primary shadow-xl '>
 								<div className=' pb-4 text-start'>
 									<h1 className='text-2xl flex items-start justify-start text-start'>
 										Get in touch
@@ -77,8 +77,8 @@ export default function Contact() {
 							</form>
 						</div>
 					</article>
-					<article className='h-72 md:h-full bg-primary mt-4 mx-2 md:mx-0 rounded-xl md:mt-0 md:m-0 md:w-96 flex md:rounded-r-lg items-center justify-center md:justify-start md:pb-0 '>
-						<div className='flex md:w-full flex-col p-2  text-white shadow-xl rounded-lg justify-center items-start h-full bg-blue'>
+					<article className='h-72 md:h-full bg-primary mt-4 mx-2 md:mx-0 md:mt-0 md:m-0 shadow-xl md:w-96 flex rounded-lg items-center justify-center md:justify-start md:pb-0 '>
+						<div className='flex md:w-full flex-col p-2  text-white  rounded-lg justify-center items-center h-full bg-blue'>
 							<h1 className='py-2 text-2xl'>Contact Us</h1>
 
 							<p className='py-2'>Phone: (626) 922 - 0791</p>

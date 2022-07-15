@@ -16,7 +16,7 @@ export default function Services() {
 							<RiStackFill size={70}></RiStackFill>
 						</span>
 						<h1 className='text-4xl font-bold mb-10 text-white'>Services</h1>
-						<span className='flex justify-center text-lg md:w-full'>
+						<span className='flex justify-center text-lg md:w-full px-4 md:px-0'>
 							<p className='md:w-1/3 text-white'>
 								We are a mobility solutions partner who can provide products and
 								services to help cut company costs and improve productivity.
@@ -32,7 +32,7 @@ export default function Services() {
 						<div className=' flex text-center justify-center py-10 text-att'>
 							<SiAtandt size={70}></SiAtandt>
 						</div>
-						<div className='flex justify-center text-center py-10 h-full mt-12 md:py-0 text-spectrum'>
+						<div className='flex justify-center text-center pb-10 h-full mt-12 md:py-0 text-spectrum'>
 							<h1 className='flex  text-center text-4xl font-bold'>Spectrum</h1>
 						</div>
 					</article>
