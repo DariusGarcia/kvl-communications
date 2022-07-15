@@ -19,7 +19,7 @@ let Element = Scroll.Element;
 export default function About() {
 	return (
 		<Element name='about'>
-			<div className='relative h-full mt-28 mb-2 md:mb-16 text-grey'>
+			<div className='relative h-full mt-28 mb-2 md:mb-0 text-grey'>
 				{/*----------------------------------3D MODEL---------------------------------------------*/}
 				<div className='mt-24 md:mt-18 h-screen cursor-grab'>
 					{/* <Spline scene='https://prod.spline.design/uWliGq2xJzALdGJP/scene.splinecode' /> */}
