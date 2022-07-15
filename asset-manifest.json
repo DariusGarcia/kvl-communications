@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/kvl-communications/static/css/main.5ab95450.css",
-    "main.js": "/kvl-communications/static/js/main.760850bd.js",
+    "main.css": "/kvl-communications/static/css/main.d13b7a1d.css",
+    "main.js": "/kvl-communications/static/js/main.63b1f29f.js",
     "static/js/232.115e7333.chunk.js": "/kvl-communications/static/js/232.115e7333.chunk.js",
     "static/js/787.fbcede75.chunk.js": "/kvl-communications/static/js/787.fbcede75.chunk.js",
     "static/media/dark.PNG": "/kvl-communications/static/media/dark.a2b7f8918aa865257e01.PNG",
     "index.html": "/kvl-communications/index.html",
-    "main.5ab95450.css.map": "/kvl-communications/static/css/main.5ab95450.css.map",
-    "main.760850bd.js.map": "/kvl-communications/static/js/main.760850bd.js.map",
+    "main.d13b7a1d.css.map": "/kvl-communications/static/css/main.d13b7a1d.css.map",
+    "main.63b1f29f.js.map": "/kvl-communications/static/js/main.63b1f29f.js.map",
     "232.115e7333.chunk.js.map": "/kvl-communications/static/js/232.115e7333.chunk.js.map",
     "787.fbcede75.chunk.js.map": "/kvl-communications/static/js/787.fbcede75.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ab95450.css",
-    "static/js/main.760850bd.js"
+    "static/css/main.d13b7a1d.css",
+    "static/js/main.63b1f29f.js"
   ]
 }
