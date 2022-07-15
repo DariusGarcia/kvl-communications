@@ -2,6 +2,7 @@ import React from 'react';
 import * as Scroll from 'react-scroll';
 // import { Link } from 'react-router-dom';
 import logo from '../images/dark.PNG';
+import Contact from '../Routes/Contact';
 import Spline from '@splinetool/react-spline';
 import {
 	MdPhoneIphone,
@@ -20,7 +21,8 @@ export default function About() {
 		<Element name='about'>
 			<div className='relative h-full mt-28 mb-2 md:mb-16 text-grey'>
 				{/*----------------------------------3D MODEL---------------------------------------------*/}
-				<div className='mt-24 md:mt-18 h-full cursor-grab'>
+				<div className='mt-24 md:mt-18 h-screen cursor-grab'>
+					{/* <Spline scene='https://prod.spline.design/uWliGq2xJzALdGJP/scene.splinecode' /> */}
 					<Spline scene='https://prod.spline.design/uWliGq2xJzALdGJP/scene.splinecode' />
 				</div>
 				{/*---------------------------------------------------------------------------------------*/}
@@ -50,9 +52,11 @@ export default function About() {
 										</p>
 									</div>
 									<div className='flex justify-center text-center mt-8'>
-										<button className='flex justify-center h-max w-max text-sm p-4 bg-primary text-white rounded-lg hover:bg-bluetext hover:shadow-lg hover:scale-110 outline-grey transition ease-in-out delay-10'>
-											Work with us
-										</button>
+										<a href='./Contact'>
+											<button className='flex justify-center h-max w-max text-sm p-4 bg-primary text-white rounded-lg hover:bg-bluetext hover:shadow-lg hover:scale-110 outline-grey transition ease-in-out delay-10'>
+												Work with us
+											</button>
+										</a>
 									</div>
 								</div>
 							</header>
